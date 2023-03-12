@@ -1,13 +1,37 @@
 * {
-    background-color: black;
+    background-color: rgb(33, 37, 33);
     color: white;
-    font-family: 'Courier New', sans-serif;
+    font-family: monospace;
 }
 
-div {
-    font-size: large;
-    border: white;
-    border-style: inset;
+img {
+    
+    width: 600px;
+    height: 600px;
+    border-radius: 40px;
+}
+.heading,
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.heading {
+    justify-content: center;
+    border: 2px solid white;
+    font-size: 25px;
+}
+
+.content {
+    flex: 1;
+}
+
+.image {
+    padding: 20px;
 }
 
 a {
@@ -15,6 +39,8 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
-    font-style: italic;
+    font-weight: bold;
 }
+
+
+
