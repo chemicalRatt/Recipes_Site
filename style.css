@@ -59,10 +59,12 @@
 
 a {
     text-decoration: none;
+    transition: 300ms;
 }
 
 a:hover {
     opacity: 50%;
+    transition: 300ms;
 }
 
 
